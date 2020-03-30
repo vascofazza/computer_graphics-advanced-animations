@@ -1,6 +1,6 @@
-# Assignment 4: Animate
+# Assignment 3: Animate
 
-Simple openGL animation renderer framework in C++ with Soft Body Dynamics and cloth internal collision detection. Developed in the context of the second homework of the fundamentals of computer graphics course held by Prof. Fabio Pellacini.
+Simple openGL animation renderer framework in C++ with Soft Body Dynamics and cloth internal collision detection. Developed in the context of the third homework of the fundamentals of computer graphics course held by Prof. Fabio Pellacini.
 
 ![self-colliding cloth](gif_out/15_cloth1.gif)
 
