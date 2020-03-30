@@ -1,0 +1,20 @@
+{
+    "lookat_camera": { "from": [0,0,5], "width": 0.8, "height": 0.8 },
+    "meshes": [
+        {
+            "json_mesh": "gen/particles.json"
+        }
+    ],
+    "surfaces": [
+        { 
+            "frame": { "o": [0,-1,0], "x": [1,0,0], "y": [0,0,1], "z": [0,1,0] }, 
+            "isquad": true, 
+            "radius": 10, 
+            "material": { "kd": [0.5,0.5,0.5] } 
+        }
+    ],
+    "lights": [
+        { "frame": { "o": [0,10,0] }, "intensity": [30,30,30] }
+    ],
+    "animation": { "length": 300, "dt": 0.005 }
+}

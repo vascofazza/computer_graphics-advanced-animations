@@ -1,0 +1,31 @@
+{
+    "lookat_camera": { "from": [0,100,200], "width": 0.8, "height": 0.8 },
+    "meshes": [
+        {
+            "obj_mesh": "/Volumes/Mac/Users/fscozzafava/Downloads/4bw1cngyboxs-millenium-falcon/millenium-falcon.obj",
+            "subdivision_catmullclark_level": 0,
+            "subdivision_catmullclark_smooth": true,
+            "friction":true,
+            "tetra":false
+        }
+    ],
+    "surfaces": [
+        {
+            "frame": { "o": [0,-30,0], "x": [1,0,0], "y": [0,0,1], "z": [0.2,1,0] },
+            "isquad": true,
+            "radius": 100,
+            "material": { "kd": [0.5,0.5,0.5] }
+        }
+    ],
+    "lights": [
+        { "frame": { "o": [-30, 100,-30] }, "intensity": [170,170,170] },
+        { "frame": { "o": [-30, 100, 30] }, "intensity": [200,200,200] },
+        { "frame": { "o": [ 30, 100,-30] }, "intensity": [200,200,200] },
+        { "frame": { "o": [ 30, 100, 30] }, "intensity": [200,200,200] },
+        { "frame": { "o": [-30, 100,-30] }, "intensity": [30,30,30] },
+        { "frame": { "o": [-30, 100, 30] }, "intensity": [3,3,3] },
+        { "frame": { "o": [ 30, 100,-30] }, "intensity": [3,3,3] },
+        { "frame": { "o": [ 30, 100, 30] }, "intensity": [3,3,3] }
+    ],
+    "animation": { "length": 1000, "dt": 0.005 }
+}

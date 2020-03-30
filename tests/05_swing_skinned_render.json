@@ -1,0 +1,14 @@
+{
+    "lookat_camera": { "from": [0,0,5], "to": [0,1,0], "width": 0.8, "height": 0.8 },
+    "meshes": [
+        {
+            "json_mesh": "models/skinning/swing.json",
+            "json_skinning": "models/skinning/swing.skin.json",
+            "material": { "kd": [0.7,0.7,0.7], "ks": [0.7,0.7,0.7], "n": 100 }
+        }
+    ],
+    "lights": [
+        { "frame": { "o": [0,3,3] }, "intensity": [10,10,10] }
+    ],
+    "animation": { "length": 60 }
+}

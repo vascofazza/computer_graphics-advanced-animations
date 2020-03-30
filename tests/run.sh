@@ -1,0 +1,11 @@
+../bin/animate 01_monkey_keyframed01.json
+../bin/animate 02_monkey_keyframed02.json
+../bin/animate 03_horse_skinned.json
+../bin/animate 04_samba_skinned.json
+../bin/animate 05_swing_skinned.json
+../bin/animate 06_particles_simulated01.json
+../bin/animate 07_particles_simulated02.json
+../bin/animate 08_particles_simulated03.json
+../bin/animate 09_cloth_simulated01.json
+../bin/animate 10_cloth_simulated02.json
+../bin/animate 11_cloth_simulated03.json

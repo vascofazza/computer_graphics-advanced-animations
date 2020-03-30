@@ -1,0 +1,19 @@
+{
+    "lookat_camera": { "from": [0,5,5], "width": 0.8, "height": 0.8 },
+    "meshes": [
+        {
+            "json_mesh": "gen/cloth01.json"
+        }
+    ],
+    "lights": [
+        { "frame": { "o": [-10, 10,-10] }, "intensity": [30,30,30] },
+        { "frame": { "o": [-10, 10, 10] }, "intensity": [30,30,30] },
+        { "frame": { "o": [ 10, 10,-10] }, "intensity": [30,30,30] },
+        { "frame": { "o": [ 10, 10, 10] }, "intensity": [30,30,30] },
+        { "frame": { "o": [-10, 10,-10] }, "intensity": [3,3,3] },
+        { "frame": { "o": [-10, 10, 10] }, "intensity": [3,3,3] },
+        { "frame": { "o": [ 10, 10,-10] }, "intensity": [3,3,3] },
+        { "frame": { "o": [ 10, 10, 10] }, "intensity": [3,3,3] }
+    ],
+    "animation": { "length": 333, "dt": 0.005 }
+}
